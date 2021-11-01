@@ -56,6 +56,10 @@ export default function ContactMe(props) {
         setName("");
         setEmail("");
         setMessage("");
+
+        setName("");
+        setEmail("");
+        setMessage("");
       }
     } catch (error) {
       console.log(error);

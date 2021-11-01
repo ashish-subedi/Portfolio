@@ -126,7 +126,7 @@
   width: 15px;
   top: 5px;
   border-radius: 50%;
-  background-color: #ff5823;
+  background-color: var(--dark-orange);
 }
 
 .resume-sub-heading {
@@ -142,9 +142,10 @@
 }
 
 .heading-date {
-  background-color: #ff5823;
+  background-color: var(--dark-orange);
   padding: 4px 12px;
   font-size: 14px;
+  font-weight: bolder;
   border-radius: 14px;
   color: var(--white);
 }
@@ -168,7 +169,7 @@
   position: relative;
   height: 15px;
   width: 70%;
-  background-color: #ff5823;
+  background-color: var(--dark-orange);
 }
 
 .skill-percentage .active-percentage-bar {
@@ -181,7 +182,7 @@
 .skill-parent span {
   font-family: "Poppins Bold";
   font-size: 16px;
-  color: #ff5823;
+  color: var(--dark-orange);
 }
 
 @media only screen and (max-width: 1110px) {

@@ -17,7 +17,7 @@
 .header-logo {
   font-size: 50px;
   font-family: "Poppins Extrabold";
-  color: var(--white);
+  color: var(--dark-orange);
 }
 
 .header-options {
@@ -25,8 +25,9 @@
   align-items: center;
 }
 
-.header-option {
+.header-options span {
   font-size: 16px;
+  margin-right: 30px;
   cursor: pointer;
   font-weight: 600;
 }

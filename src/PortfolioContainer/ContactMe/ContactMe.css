@@ -102,7 +102,7 @@ form button {
   outline: none;
   width: 900px;
   color: rgb(230, 227, 227);
-  border: 2px solid #ff5823;
+  border: 2px solid var(--dark-orange);
   font-size: 12px;
   border-radius: 19px;
   background-color: #1f2235;
@@ -116,6 +116,7 @@ form button:hover {
   background-color: #1f2235;
   transition: all ease 1s;
   border: 2px solid #1f2235;
+  color: yellow;
 }
 
 button .load {
